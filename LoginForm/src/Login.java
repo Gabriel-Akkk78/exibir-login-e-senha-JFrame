@@ -32,7 +32,7 @@ public class Login extends JFrame {
         panel.add(labelSenha);
 
         passwordFieldSenha = new JPasswordField();
-        passwordFieldSenha.setPreferredSize(new Dimension(1, 1));
+        passwordFieldSenha.setPreferredSize(new Dimension(25, 25));
         panel.add(passwordFieldSenha);
 
         JButton btnOK = new JButton("OK");
